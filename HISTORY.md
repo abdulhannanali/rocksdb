@@ -1,6 +1,5 @@
 # Rocksdb Change Log
-## Unreleased
-
+## 5.12.1 (3/5/2018)
 ### New Features
 * Avoid unnecessarily flushing in `CompactRange()` when the range specified by the user does not overlap unflushed memtables.
 
